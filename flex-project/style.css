@@ -1,0 +1,123 @@
+* {
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    color: seashell;
+    background-color: black;
+    /* opacity: .9; */
+}
+/*container*/
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: seashell;
+    font-family:  Helvetica;
+    font-size: 22px;
+}
+/* nav section */
+nav{
+    position:fixed;
+    height: 69px;
+    padding: 10px;
+    border: 1px solid seashell;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: black;
+    color: seashell;
+    opacity: .9;
+    /* align-items: center; */
+}
+
+.logo{
+    height: 50px;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+a{
+    padding: 5px;
+    
+}
+
+/*main*/
+
+main{
+    padding-top: 69px;
+    /* margin: 0 auto; */
+
+}
+
+/*mission section*/
+#mission-section{
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    /* text-align: center; */
+    width: 100%;
+    margin: 0 auto;
+     
+}
+#mission{
+    height: 700px;
+    align-self: center;
+}
+
+.mission-info{
+    width: 1050px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+
+
+
+/*tea types section*/
+.tea-img{
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+.tea-section{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.teas{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+figure {
+    display: inline-block;
+    margin: 20px; /* adjust as needed */
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+/*location section*/
+#locationimg{
+    height: 500px;
+}
+
+
+/*footer*/
+
